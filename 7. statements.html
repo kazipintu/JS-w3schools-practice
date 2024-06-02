@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJS-W3Schools-statements</title>
+</head>
+
+<body>
+  <h2 id="line-break"></h2>
+  <button onclick="thisFunction()">Click Here!</button>
+  <p id="name"></p>
+  <p id="greeting"></p>
+  <script>
+    let a, b, c;
+    a = 50;
+    b = 60;
+    c = a + b;
+    console.log(c);
+
+    a = 20; b = 30; c = a + b;
+    console.log(c);
+
+    document.getElementById('line-break').innerHTML =
+      'Hello Dolla !'
+
+    thisFunction = () => {
+      document.getElementById('name').innerHTML = "Hello Dola!";
+      document.getElementById('greeting').innerHTML = "Good Morning";
+    }
+
+
+  </script>
+
+</body>
+
+</html>
